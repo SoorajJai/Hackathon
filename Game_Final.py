@@ -42,9 +42,11 @@ def main(dimx, dimy, cellsize):
             if event.type == pygame.QUIT:
                 pygame.quit()
                 return
-
         plane.fill(col_grid) 
         cells = update(plane, cells, cellsize) 
         pygame.display.update()
-        
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Execution 
+main(120,80,9)
      
